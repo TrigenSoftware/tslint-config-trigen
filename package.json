@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-trigen",
+  "version": "1.0.0",
+  "description": "Trigen's ESLint config",
+  "main": "index.js",
+  "repository": "https://github.com/TrigenSoftware/eslint-config-trigen",
+  "author": "dangreen",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
