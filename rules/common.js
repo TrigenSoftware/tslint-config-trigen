@@ -96,7 +96,8 @@ module.exports = {
 			'ignoreTrailingComments': true, 
 			'ignoreUrls':             true,
 			'ignoreStrings':          true,
-			'ignoreTemplateLiterals': true
+			'ignoreTemplateLiterals': true,
+			'ignoreRegExpLiterals':   true
 		}],
 		'max-nested-callbacks':         ['error', 4],
 		'max-params':                   ['error', 6],

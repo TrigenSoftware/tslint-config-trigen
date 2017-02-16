@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trigen",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Trigen's ESLint config",
   "main": "index.js",
   "repository": "https://github.com/TrigenSoftware/eslint-config-trigen",
