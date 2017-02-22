@@ -23,13 +23,38 @@ module.exports = {
 		'react/react-in-jsx-scope':      'error',
 		'react/require-render-return':   'error',
 		'react/self-closing-comp':       'error',
-		'react/sort-comp':              ['warn', { order: [
-			'static-methods',
-			'type-annotations',
-			'render',
-			'lifecycle',
-			'everything-else'
-		]}],
+		'react/sort-comp':              ['error', {
+			order: [
+				'static-methods',
+				'type-annotations',
+				'lifecycle-before-render',
+				'render',
+				'lifecycle-after-render',
+				'everything-else'
+			],
+			groups: {
+				'lifecycle-before-render': [
+					'displayName',
+					'propTypes',
+					'defaultProps',
+					'contextTypes',
+					'childContextTypes',
+					'state',
+					'/.+/',
+					'constructor'
+				],
+				'lifecycle-after-render': [
+					'getChildContext',
+					'componentWillMount',
+					'componentDidMount',
+					'componentWillReceiveProps',
+					'shouldComponentUpdate',
+					'componentWillUpdate',
+					'componentDidUpdate',
+					'componentWillUnmount'
+				]
+			}
+		}],
 		'react/style-prop-object':            'error',
 		'react/jsx-boolean-value':           ['error', 'never'],
 		'react/jsx-closing-bracket-location': 'warn',
