@@ -1,17 +1,29 @@
 {
   "name": "eslint-config-trigen",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Trigen's ESLint config",
-  "main": "index.js",
-  "repository": "https://github.com/TrigenSoftware/eslint-config-trigen",
   "author": "dangreen",
   "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrigenSoftware/eslint-config-trigen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TrigenSoftware/eslint-config-trigen/issues"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "dependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint-plugin-react": "^6.9.0"
-  }
+  "peerDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "files": [
+    "rules",
+    "base.js",
+    "index.js",
+    "LICENSE"
+  ]
 }

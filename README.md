@@ -1,23 +1,32 @@
-[![NPM](https://nodei.co/npm/eslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/eslint-config-trigen/)
-
 # eslint-config-trigen
+
+[![npm][npm]][npm-url]
+[![deps][deps]][deps-url]
+
+[npm]: https://img.shields.io/npm/v/eslint-config-trigen.svg
+[npm-url]: https://npmjs.com/package/eslint-config-trigen
+
+[deps]: https://david-dm.org/TrigenSoftware/eslint-config-trigen/peer-status.svg
+[deps-url]: https://david-dm.org/TrigenSoftware/eslint-config-trigen?type=peer
 
 Trigen's ESLint config.
 
-# Getting Started
+# Install
 
-1) Install with npm
 ```bash
 npm i -D eslint-config-trigen
-```
-or
-```bash
+# or
 yarn add -D eslint-config-trigen
 ```
 
-2) Add `'extends': 'trigen'` (to lint code with ReactJS) or `'extends': 'trigen/base'` to your .eslintrc
+# Configure
+
+Add `'extends': 'trigen'` (to lint code with ReactJS) or `'extends': 'trigen/base'` to your `.eslintrc`.
 
 # Todo
 
 - [ ] Improve ReactJS config.
 - [ ] Add import config with `eslint-config-import`
+
+---
+[![NPM](https://nodei.co/npm/eslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/eslint-config-trigen/)
