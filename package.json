@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trigen",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Trigen's ESLint config",
   "author": "dangreen",
   "license": "MIT",
@@ -23,7 +23,6 @@
   "files": [
     "rules",
     "base.js",
-    "index.js",
-    "LICENSE"
+    "index.js"
   ]
 }
