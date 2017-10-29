@@ -2,12 +2,16 @@
 
 [![npm][npm]][npm-url]
 [![deps][deps]][deps-url]
+[![peer-deps][peer-deps]][peer-deps-url]
 
 [npm]: https://img.shields.io/npm/v/eslint-config-trigen.svg
 [npm-url]: https://npmjs.com/package/eslint-config-trigen
 
-[deps]: https://david-dm.org/TrigenSoftware/eslint-config-trigen/peer-status.svg
-[deps-url]: https://david-dm.org/TrigenSoftware/eslint-config-trigen?type=peer
+[deps]: https://david-dm.org/TrigenSoftware/eslint-config-trigen.svg
+[deps-url]: https://david-dm.org/TrigenSoftware/eslint-config-trigen
+
+[peer-deps]: https://david-dm.org/TrigenSoftware/eslint-config-trigen/peer-status.svg
+[peer-deps-url]: https://david-dm.org/TrigenSoftware/eslint-config-trigen?type=peer
 
 Trigen's ESLint config.
 
