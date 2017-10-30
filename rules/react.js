@@ -13,7 +13,6 @@ module.exports = {
 	},
 	'rules': {
 	    // React
-	    // TODO 'react/forbid-prop-types', 'react/prop-types', 'react/require-optimization'
 		'react/no-danger-with-children': 'error',
 		'react/no-deprecated':           'error',
 		'react/no-is-mounted':           'error',
@@ -60,7 +59,7 @@ module.exports = {
 		'react/jsx-closing-bracket-location': 'warn',
 		'react/jsx-curly-spacing':           ['error', 'never'],
 		'react/jsx-first-prop-new-line':     ['error', 'multiline'],
-		// 'react/jsx-indent':                  ['error', 'tab'],
+		'react/jsx-indent':                  ['error', 'tab'],
 		'react/jsx-indent-props':            ['error', 'tab'],
 		'react/jsx-key':                      'error',
 		'react/jsx-max-props-per-line':      ['error', { 'maximum': 3 }],
@@ -72,7 +71,11 @@ module.exports = {
 		'react/jsx-no-duplicate-props':       'error',
 		'react/jsx-no-undef':                 'error',
 		'react/jsx-pascal-case':              'error',
-		'react/jsx-space-before-closing':    ['error', 'never'],
+		'react/jsx-tag-spacing':             ['error', {
+			'closingSlash':      'never',
+			'beforeSelfClosing': 'never',
+			'afterOpening':      'never'
+		}],
 		'react/jsx-uses-react':               'error',
 		'react/jsx-uses-vars':                'error',
 		'react/jsx-wrap-multilines':          'error'
