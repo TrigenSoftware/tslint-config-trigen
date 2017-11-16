@@ -4,7 +4,6 @@
   "description": "Trigen's ESLint config",
   "author": "dangreen",
   "license": "MIT",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TrigenSoftware/eslint-config-trigen.git"
@@ -12,6 +11,7 @@
   "bugs": {
     "url": "https://github.com/TrigenSoftware/eslint-config-trigen/issues"
   },
+  "main": "index.js",
   "keywords": [
     "eslint",
     "eslintconfig"
