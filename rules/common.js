@@ -29,7 +29,10 @@ module.exports = {
 		'no-iterator':                   'error',
 		'no-lone-blocks':                'error',
 		'no-loop-func':                  'error',
-		'no-magic-numbers':              'error',
+		'no-magic-numbers':             ['error', {
+			'ignore':             [-1, 0, 1],
+			'ignoreArrayIndexes': true
+		}],
 		'no-multi-spaces':              ['error', { exceptions: { 
 			'ImportDeclaration':  true,
 			'VariableDeclarator': true,
