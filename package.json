@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trigen",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Trigen's ESLint config",
   "author": "dangreen",
   "license": "MIT",
@@ -27,5 +27,8 @@
     "rules",
     "base.js",
     "index.js"
-  ]
+  ],
+  "devDependencies": {
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
