@@ -27,10 +27,5 @@ yarn add -D eslint-config-trigen
 
 Add `'extends': 'trigen'` (to lint code with ReactJS) or `'extends': 'trigen/base'` to your `.eslintrc`.
 
-# Todo
-
-- [ ] Improve ReactJS config.
-- [ ] Add import config with `eslint-config-import`
-
 ---
 [![NPM](https://nodei.co/npm/eslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/eslint-config-trigen/)
