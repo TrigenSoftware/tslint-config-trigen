@@ -5,7 +5,8 @@
 module.exports = {
 	'rules': {
 		// Possible Errors
-		'no-console':                   ['error', { allow: ['warn', 'error'] }],
+		'no-console':                   ['warn', { allow: ['warn', 'error'] }],
+		'no-debugger':                   'warn',
 		'valid-jsdoc':                   'error',
 
 		// Best Practices
@@ -33,7 +34,7 @@ module.exports = {
 			'ignore':             [-1, 0, 1],
 			'ignoreArrayIndexes': true
 		}],
-		'no-multi-spaces':              ['error', { exceptions: { 
+		'no-multi-spaces':              ['error', { exceptions: {
 			'ImportDeclaration':  true,
 			'VariableDeclarator': true,
 			'Property':           true
@@ -67,7 +68,7 @@ module.exports = {
 		'no-shadow-restricted-names':    'error',
 		'no-undef-init':                 'error',
 		'no-undefined':                  'error',
-		'no-use-before-define':         ['error', { 
+		'no-use-before-define':         ['error', {
 			'functions': false,
 			'classes':   false
 		}],
@@ -93,10 +94,10 @@ module.exports = {
 		'key-spacing':                  ['error', { 'mode': 'minimum', 'align': 'value' }],
 		'keyword-spacing':               'error',
 		'linebreak-style':               'error',
-		'max-len':                      ['error', { 
-			'code':                   140, 
+		'max-len':                      ['error', {
+			'code':                   140,
 			'tabWidth':               4,
-			'ignoreTrailingComments': true, 
+			'ignoreTrailingComments': true,
 			'ignoreUrls':             true,
 			'ignoreStrings':          true,
 			'ignoreTemplateLiterals': true,
