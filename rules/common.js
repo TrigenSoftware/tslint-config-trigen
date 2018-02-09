@@ -90,7 +90,7 @@ module.exports = {
 		'func-names':                    'error',
 		'func-style':                   ['error', 'declaration', { 'allowArrowFunctions': true }],
 		'indent':                       ['error', 'tab', { 'SwitchCase': 1 }],
-		'jsx-quotes':                   ['error', 'prefer-double'],
+		'jsx-quotes':                   ['error', 'prefer-single'],
 		'key-spacing':                  ['error', { 'mode': 'minimum', 'align': 'value' }],
 		'keyword-spacing':               'error',
 		'linebreak-style':               'error',
