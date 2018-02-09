@@ -1,8 +1,8 @@
 # eslint-config-trigen
 
-[![npm][npm]][npm-url]
-[![deps][deps]][deps-url]
-[![peer-deps][peer-deps]][peer-deps-url]
+[![NPM version][npm]][npm-url]
+[![Peer dependency status][peer-deps]][peer-deps-url]
+[![Dependency status][deps]][deps-url]
 
 [npm]: https://img.shields.io/npm/v/eslint-config-trigen.svg
 [npm-url]: https://npmjs.com/package/eslint-config-trigen
