@@ -68,16 +68,16 @@ module.exports = {
 		'object-shorthand':                   ['error', 'always', { 'avoidQuotes': true }],
 		'prefer-arrow-callback':              ['error', { 'allowNamedFunctions': true }],
 		'prefer-const':                       ['error', {
-	        'destructuring':          'all',
-	        'ignoreReadBeforeAssign': false
-	    }],
-	    'prefer-reflect':                      'error',
-	    'prefer-rest-params':                  'error',
-	    'prefer-spread':                       'error',
-	    'prefer-template':                     'error',
-	    'rest-spread-spacing':                ['error', 'never'],
-	    'template-curly-spacing':              'error',
-	    'yield-star-spacing':                 ['error', 'before'],
+			'destructuring':          'all',
+			'ignoreReadBeforeAssign': false
+		}],
+		'prefer-reflect':                      'error',
+		'prefer-rest-params':                  'error',
+		'prefer-spread':                       'error',
+		'prefer-template':                     'error',
+		'rest-spread-spacing':                ['error', 'never'],
+		'template-curly-spacing':              'error',
+		'yield-star-spacing':                 ['error', 'before'],
 		'space-before-function-paren':        ['error', {
 			'anonymous':  'always',
 			'named':      'never',
