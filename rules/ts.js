@@ -28,7 +28,6 @@ module.exports = {
 		'forin':                            'off',
 		'no-duplicate-switch-case':         'error',
 		'no-dynamic-delete':                'error',
-		'no-inferred-empty-object-type':    'error',
 		'no-object-literal-type-assertion': 'error',
 		'no-return-await':                  'error',
 		'no-this-assignment':              ['error', { 'allowed-names': ['^self$'], 'allow-destructuring': true }],
@@ -39,26 +38,25 @@ module.exports = {
 		'no-require-imports':               'error',
 		'object-literal-sort-keys':         'error',
 		'prefer-readonly':                  'error',
-		'align': {
-			'options': [
-				'parameters',
-				'statements',
-				'members',
-				'elements'
-			]
-		},
+		'align':                           [
+			'error',
+			'parameters',
+			'statements',
+			'members',
+			'elements'
+		],
 		'array-type':                      ['error', 'array'],
 		'binary-expression-operand-order':  'error',
 		'encoding':                         'error',
-		'match-default-export-name':        'error',
 		'no-boolean-literal-compare':       'error',
 		'no-unnecessary-callback-wrapper':  'error',
 		'ordered-imports':                  'off',
-		'prefer-function-over-method':      'error',
 		'prefer-method-signature':          'error',
 		'prefer-switch':                    'error',
 		'prefer-while':                     'error',
 		'return-undefined':                 'error',
-		'switch-final-break':               'error'
+		'switch-final-break':               'error',
+		'object-literal-sort-keys':         'off',
+		'member-access':                   ['error', 'no-public']
 	})
 };

@@ -26,7 +26,8 @@ module.exports = {
 		'no-var-keyword':                      'error',
 		// 'object-shorthand':                   ['error', 'always', { 'avoidQuotes': true }],
 		'object-literal-shorthand':            'error',
-		'prefer-arrow-callback':              ['error', { 'allowNamedFunctions': true }],
+		// 'prefer-arrow-callback':              ['error', { 'allowNamedFunctions': true }],
+		'ter-prefer-arrow-callback':          ['error', { 'allowNamedFunctions': true }],
 		// 'prefer-const':                       ['error', {
 		// 	'destructuring':          'all',
 		// 	'ignoreReadBeforeAssign': false

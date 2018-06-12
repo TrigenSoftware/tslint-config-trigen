@@ -1,7 +1,6 @@
 
-module.exports =
-function convert(rules) {
-	return Object.keys(rules).reduce((convertedRules, ruleName) => {
+module.exports = (rules) =>
+	Object.keys(rules).reduce((convertedRules, ruleName) => {
 
 		let rule = rules[ruleName];
 
@@ -10,6 +9,10 @@ function convert(rules) {
 		}
 
 		const [severity, ...options] = rule;
+
+		if (typeof severity !== 'string') {
+			console.error(`Rule "${ruleName}" have invalid config signature.`);
+		}
 
 		convertedRules[ruleName] = {
 			severity,
@@ -22,4 +25,3 @@ function convert(rules) {
 
 		return convertedRules;
 	}, {});
-};

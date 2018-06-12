@@ -60,10 +60,11 @@ module.exports = {
 		// 	'ignoreArrayIndexes': true
 		// }],
 		'no-magic-numbers':              'error',
+		// 'no-multi-spaces':              ['error', { 'exceptions': {
+		// 	'Property': true
+		// }}],
 		'no-multi-spaces':              ['error', { 'exceptions': {
-			'ImportDeclaration':  true,
-			'VariableDeclarator': true,
-			'Property':           true
+			'PropertyAssignment': true
 		}}],
 		// 'no-multi-str':                  'error',
 		// 'no-native-reassign':            'error',
@@ -112,15 +113,15 @@ module.exports = {
 		// 'no-new-require':                'error',
 
 		// Stylistic Issues
-		'padding-line-between-statements': [
-			'error',
-			{ blankLine: 'always', prev: 'import', next: '*' },
-			{ blankLine: 'never', prev: 'import', next: 'import' },
-			{ blankLine: 'always', prev: ['const', 'let'], next: '*' },
-			{ blankLine: 'never', prev: ['const', 'let'], next: ['const', 'let'] },
-			{ blankLine: 'always', prev: '*', next: 'block-like' },
-			{ blankLine: 'always', prev: '*', next: 'case' }
-		],
+		// 'padding-line-between-statements': [
+		// 	'error',
+		// 	{ blankLine: 'always', prev: 'import', next: '*' },
+		// 	{ blankLine: 'never', prev: 'import', next: 'import' },
+		// 	{ blankLine: 'always', prev: ['const', 'let'], next: '*' },
+		// 	{ blankLine: 'never', prev: ['const', 'let'], next: ['const', 'let'] },
+		// 	{ blankLine: 'always', prev: '*', next: 'block-like' },
+		// 	{ blankLine: 'always', prev: '*', next: 'case' }
+		// ],
 		'array-bracket-spacing':        ['error', 'never'],
 		'block-spacing':                 'error',
 		'brace-style':                  ['error', '1tbs'],
