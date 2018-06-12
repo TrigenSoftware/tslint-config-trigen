@@ -1,28 +1,28 @@
 {
-  "name": "eslint-config-trigen",
-  "version": "2.5.1",
-  "description": "Trigen's ESLint config",
+  "name": "tslint-config-trigen",
+  "version": "3.0.0",
+  "description": "Trigen's TSLint config",
   "author": "dangreen",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TrigenSoftware/eslint-config-trigen.git"
+    "url": "git+https://github.com/TrigenSoftware/tslint-config-trigen.git"
   },
   "bugs": {
-    "url": "https://github.com/TrigenSoftware/eslint-config-trigen/issues"
+    "url": "https://github.com/TrigenSoftware/tslint-config-trigen/issues"
   },
   "main": "index.js",
   "keywords": [
-    "eslint",
-    "eslintconfig"
+    "tslint",
+    "tslintconfig"
   ],
   "dependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-react": "^7.5.1"
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-react": "^3.6.0"
   },
   "peerDependencies": {
-    "eslint": "^4.10.0"
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.1"
   },
   "files": [
     "rules",
