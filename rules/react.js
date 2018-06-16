@@ -18,6 +18,7 @@ module.exports = {
 		'jsx-no-lambda':       'error',
 		'jsx-no-string-ref':   'error',
 		'jsx-self-close':      'error',
-		'jsx-wrap-multiline':  'error'
+		'jsx-wrap-multiline':  'error',
+		'jsx-no-multiline-js': 'off'
 	})
 };
