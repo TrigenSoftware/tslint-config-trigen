@@ -57,6 +57,8 @@ module.exports = {
 		'return-undefined':                 'error',
 		'switch-final-break':               'error',
 		'object-literal-sort-keys':         'off',
-		'member-access':                   ['error', 'no-public']
+		'member-access':                   ['error', 'no-public'],
+		'no-empty-interface':               'off',
+		'callable-types':                   'off'
 	})
 };
