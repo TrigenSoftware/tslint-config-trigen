@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-trigen",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "Trigen's TSLint config",
   "author": "dangreen",
   "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "peerDependencies": {
     "tslint": ">5.0.0",
-    "typescript": ">2.0.0"
+    "typescript": ">2.9.0"
   },
   "files": [
     "rules",
