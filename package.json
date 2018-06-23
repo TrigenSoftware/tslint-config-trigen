@@ -25,13 +25,13 @@
     "tslint-eslint-rules": "^5.3.1",
     "tslint-react": "^3.6.0"
   },
+  "peerDependencies": {
+    "tslint": ">=5.0.0",
+    "typescript": ">=2.9.0"
+  },
   "devDependencies": {
     "husky": "^1.0.0-rc.9",
     "npm-check": "^5.7.1"
-  },
-  "peerDependencies": {
-    "tslint": ">5.0.0",
-    "typescript": ">2.9.0"
   },
   "files": [
     "rules",
