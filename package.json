@@ -12,6 +12,11 @@
     "url": "https://github.com/TrigenSoftware/tslint-config-trigen/issues"
   },
   "main": "index.js",
+  "scripts": {
+    "checkDeps": "npm-check -s; exit 0",
+    "test": "npm run checkDeps",
+    "prepublishOnly": "npm run test"
+  },
   "keywords": [
     "tslint",
     "tslintconfig"
@@ -19,6 +24,10 @@
   "dependencies": {
     "tslint-eslint-rules": "^5.3.1",
     "tslint-react": "^3.6.0"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "npm-check": "^5.7.1"
   },
   "peerDependencies": {
     "tslint": "^5.10.0",
