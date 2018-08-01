@@ -103,7 +103,6 @@ module.exports = {
 		// 'no-shadow-restricted-names':    'error',
 		// 'no-undef-init':                 'error',
 		// 'no-undefined':                  'error',
-		'no-unused-variable':           ['error', 'check-parameters'],
 		// 'no-use-before-define':         ['error', {
 		// 	'functions': false,
 		// 	'classes':   false
