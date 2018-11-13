@@ -15,7 +15,7 @@
 
 Trigen's TSLint config.
 
-# Install
+## Install
 
 ```bash
 npm i -D tslint-config-trigen
@@ -23,7 +23,7 @@ npm i -D tslint-config-trigen
 yarn add -D tslint-config-trigen
 ```
 
-# Configure
+## Configure
 
 Add `'extends': 'trigen'` (to lint code with ReactJS) or `'extends': 'trigen/base'` to your `tslint.json`.
 
