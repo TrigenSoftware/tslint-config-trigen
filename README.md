@@ -28,4 +28,4 @@ yarn add -D tslint-config-trigen
 Add `'extends': 'trigen'` (to lint code with ReactJS) or `'extends': 'trigen/base'` to your `tslint.json`.
 
 ---
-[![NPM](https://nodei.co/npm/tslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/tslint-config-trigen/)
+[![NPM](https://nodei.co/npm/tslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/tslint-config-trigen/) [![Greenkeeper badge](https://badges.greenkeeper.io/TrigenSoftware/tslint-config-trigen.svg)](https://greenkeeper.io/)
