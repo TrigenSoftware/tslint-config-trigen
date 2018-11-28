@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-trigen",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "Trigen's TSLint config",
   "author": "dangreen",
   "license": "MIT",
@@ -13,9 +13,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "checkDeps": "npm-check -s; exit 0",
-    "test": "npm run checkDeps",
-    "prepublishOnly": "npm run test"
+    "test": "cd test; ./test.sh"
   },
   "keywords": [
     "tslint",
@@ -30,8 +28,8 @@
     "typescript": ">=2.9.0"
   },
   "devDependencies": {
-    "husky": "^1.0.0-rc.9",
-    "npm-check": "^5.7.1"
+    "tslint": ">=5.0.0",
+    "typescript": "^3.1.6"
   },
   "files": [
     "rules",
