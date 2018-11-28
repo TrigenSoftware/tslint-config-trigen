@@ -2,7 +2,7 @@
 
 output=$(tslint -p tsconfig.json valid.ts)
 
-if [[ $output == *'ERROR'* ]]; then
+if [[ $? -ne 0 ]]; then
 	echo "valid.ts doesn't passed checking."
 	echo "$output"
 	exit 1
@@ -16,7 +16,7 @@ fi
 
 output=$(tslint -p tsconfig.json invalid.ts)
 
-if [[ $output != *'ERROR'* ]]; then
+if [[ $? -eq 0 ]]; then
 	echo 'invalid.ts passed checking.'
 	echo "$output"
 	exit 1
