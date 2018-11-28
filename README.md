@@ -3,6 +3,7 @@
 [![NPM version][npm]][npm-url]
 [![Peer dependency status][peer-deps]][peer-deps-url]
 [![Dependency status][deps]][deps-url]
+[![Greenkeeper badge][greenkeeper]][greenkeeper-url]
 
 [npm]: https://img.shields.io/npm/v/tslint-config-trigen.svg
 [npm-url]: https://npmjs.com/package/tslint-config-trigen
@@ -12,6 +13,9 @@
 
 [deps]: https://david-dm.org/TrigenSoftware/tslint-config-trigen.svg
 [deps-url]: https://david-dm.org/TrigenSoftware/tslint-config-trigen
+
+[greenkeeper]: https://badges.greenkeeper.io/TrigenSoftware/tslint-config-trigen.svg
+[greenkeeper-url]: https://greenkeeper.io/
 
 Trigen's TSLint config.
 
@@ -28,4 +32,4 @@ yarn add -D tslint-config-trigen
 Add `'extends': 'trigen'` (to lint code with ReactJS) or `'extends': 'trigen/base'` to your `tslint.json`.
 
 ---
-[![NPM](https://nodei.co/npm/tslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/tslint-config-trigen/) [![Greenkeeper badge](https://badges.greenkeeper.io/TrigenSoftware/tslint-config-trigen.svg)](https://greenkeeper.io/)
+[![NPM](https://nodei.co/npm/tslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/tslint-config-trigen/)
