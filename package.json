@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "tslint-eslint-rules": "^5.3.1",
-    "tslint-react": "^3.6.0"
+    "tslint-react": "^4.2.0"
   },
   "peerDependencies": {
     "tslint": ">=5.0.0",
